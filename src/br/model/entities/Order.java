@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class Order {
 
-    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss");
     private Date moment;
     
     private OrderStatus status;
